@@ -20,6 +20,7 @@ body {
     position: absolute;
     background-color: white;
     width: 250px;
+    height: 530px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
@@ -37,6 +38,7 @@ body {
 }
 
 h1 {
+    font-weight: bolder;
     padding: 10px;
     text-align: center;
 }
@@ -51,8 +53,50 @@ form {
     text-align: center;
 }
 
-p > a {
-    display: block;
+span {
+    color: white;
+}
+
+.campo {
+    background-color: #5F2C82;
+    border-radius: 10px;
+    margin: 5px 10px;
+    padding: 2px;
+}
+
+input {
+    border: none;
+    padding: 13px;
+    background-color: #94CFCD;
+    border-radius: 10px;
+}
+
+.botao {
+    font-size: 1em;
+    background-color: #53AAA7;
+    color: rgb(255, 249, 249);
+    padding-left: 100px;
+    padding-right: 85px;
+    margin: 0px 10px 7px 10px;
+}
+
+.botao:hover {
+    background-color: #458d8b;
+}
+
+a {
+    color: #2D6462;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
+    border: 1px solid #49A09D;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #6CD3CF;
+}
+
+a > span {
+    color: #2D6462;
 }
