@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="login.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -17,7 +18,7 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p id="p-login">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php">
+                <form action="login.php" method="post">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
                         <input type="email" name="email" id="iemail" required placeholder="seu email">
