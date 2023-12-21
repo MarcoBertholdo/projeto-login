@@ -53,11 +53,13 @@ main {
 h1 {
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 10px;
 }
 
-#p-login {
-    font-size: 0.7em;
-    line-height: 1.3em;
+#formulario > p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-bottom: 5px;
 }
 
 form {
@@ -71,13 +73,13 @@ span {
 .campo {
     background-color: #5F2C82;
     border-radius: 10px;
-    margin: 5px 10px;
-    padding: 2px;
+    margin-bottom: 5px;
 }
 
 input {
     border: none;
-    padding: 13px;
+    width: 85%;
+    padding: 10px 0px;
     background-color: #94CFCD;
     border-radius: 10px;
 }
@@ -86,9 +88,9 @@ input {
     font-size: 1em;
     background-color: #53AAA7;
     color: rgb(255, 249, 249);
-    padding-left: 100px;
-    padding-right: 85px;
-    margin: 0px 10px 7px 10px;
+    width: 100%;
+    
+    margin-bottom: 10px;
 }
 
 .botao:hover {
