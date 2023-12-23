@@ -72,16 +72,31 @@ span {
 
 .campo {
     background-color: #5F2C82;
+    border: 2px solid #5F2C82;
+    height: 40px;
     border-radius: 10px;
     margin-bottom: 5px;
 }
 
-input {
-    border: none;
-    width: 85%;
-    height: 40px;
+.campo > label {
+    display: none;
+}
+
+.campo > span {
+    width: 40px;
+    font-size: 2em;
+    padding: 4px;
+}
+
+form > div > input {
     background-color: #94CFCD;
-    border-radius: 10px;
+    font-size: 1em;
+    border: none;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
+    height: 100%;
+    border-radius: 30px 10px 10px 0px;
+    padding: 12px 60px 14px;
 }
 
 .botao {
@@ -89,13 +104,17 @@ input {
     font-size: 1em;
     background-color: #53AAA7;
     color: rgb(255, 249, 249);
+    height: 40px;
+    border-radius: 10px;
+    border: none;
     width: 100%;
     
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .botao:hover {
     background-color: #458d8b;
+    cursor: pointer;
 }
 
 a {
@@ -116,5 +135,7 @@ a:hover {
 }
 
 a > span {
+    transform: translateY(5px);
+    display: block;
     color: #2D6462;
 }
