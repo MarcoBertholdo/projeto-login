@@ -80,7 +80,7 @@
 
     form p {
         display: block;
-        transform: translateY(115px);
         font-family: monospace;
+        transform: translateY(115px);
     }
 }

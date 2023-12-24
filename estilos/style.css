@@ -86,8 +86,8 @@ span {
     width: 40px;
     font-size: 2em;
     padding: 4px;
-    transform: translate(2px, -3px);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    transform: translate(2px, -3px);
 }
 
 form > div > input {
@@ -95,10 +95,10 @@ form > div > input {
     font-size: 1em;
     border: none;
     width: calc(100% - 45px);
-    transform: translateY(-13px);
     height: 100%;
     border-radius: 30px 10px 10px 0px;
     padding: 12px 60px 14px;
+    transform: translateY(-13px);
 }
 
 form > div > input:focus {
@@ -114,7 +114,6 @@ form > div > input:focus {
     border-radius: 10px;
     border: none;
     width: 100%;
-    
     margin-bottom: 5px;
 }
 
