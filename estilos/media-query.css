@@ -32,6 +32,12 @@
         width: 70%;
         margin-top: 5px;
     }
+
+    form p {
+        display: block;
+        font-family: monospace;
+        transform: translateY(105px);
+    }
 }
 
 @media screen and (min-width: 993px) {
@@ -68,5 +74,11 @@
         margin: auto;
         width: 70%;
         margin-top: 5px;
+    }
+
+    form p {
+        display: block;
+        transform: translateY(115px);
+        font-family: monospace;
     }
 }
